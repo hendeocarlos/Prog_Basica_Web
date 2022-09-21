@@ -1,0 +1,27 @@
+body{
+    font: 12px Arial;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+form{
+    font-family: "Times new roman";
+    margin: 0 auto;
+    padding: 1em;
+    width: 350px;
+    border: 1px solid rgb(19, 4, 4);
+    background-color: aquamarine;
+}
+label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+input{
+    width: 100px;
+    margin: 0px;
+}
+li{
+    list-style: none;
+}
