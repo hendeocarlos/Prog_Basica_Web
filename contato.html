@@ -11,28 +11,28 @@
     <a href="https://hendeocarlos.github.io/Prog_Basica_Web/index.html">Quem é Hendeo Moreira?</a>
     <h1>Entre em contato comigo.</h1>
     <form action="">
-        <ul>
+      <ul>
             <li>
                 <label for="nome">Nome completo:</label>
-                <input type="text" id="nome" name="nomeUsuario">
+                <input type="text" id="nome" name="nomeUsuario" title="Informe seu nome completo." required>
             </li>
             <li>
-                <label for="senha">E-mail:</label>
-                <input type="text" id="e_mail" name="emailUsuario">
+                <label for="email">E-mail:</label>
+                <input type="email" id="e_mail" placeholder="usuario@dominio.com" name="emailUsuario"
+                pattern="[a-z0-9._]+@[a-z0-9._]+\.[a-z]{2,}$"
+                title="Informe o email que você usou no cadastro." required>
             </li>
             <li>
-                <label for="mensagem">Me envie uma mensagem</label>
-                
+                <label for="mensagem">Me envie uma mensagem</label> 
             </li>
             <li>
-                <textarea name="mensagemUsuario" id="mensagem" cols="30" rows="10"></textarea>
+                <textarea name="mensagemUsuario" id="mensagem" cols="30" rows="10" placeholder="Digite a sua mensagem."
+                required></textarea>
             </li>
             <li>
                 <input type="submit" value="Enviar">
             </li>
-            
         </ul>
-        
     </form>
 </body>
 </html>
