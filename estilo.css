@@ -39,12 +39,12 @@ form input:required:invalid{
 .button {
     border: none;
     border-radius: 5px;
-    padding: 15px 3px;
+    height: 30px;
     outline: none;
     background-color: #0fa7e4;
     color: #fff;
     font-family: "Times New Roman";
-    font-size: 12px;
+    font-size: 10px;
     box-shadow: 3px 3px #808080	;
     cursor: pointer;
 }
