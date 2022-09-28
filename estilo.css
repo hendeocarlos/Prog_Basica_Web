@@ -36,15 +36,15 @@ form input:required:valid{
 form input:required:invalid{
     border-color: red;
 }
-.button{
-    font-family: "Times New Roman";
+.button {
     border: none;
-    border-radius: 15px ;
-    padding: 15px 25px;
+    border-radius: 5px;
+    padding: 10px 5px;
     outline: none;
     background-color: #0fa7e4;
     color: #fff;
-    font-size: 13px;
+    font-family: "Times New Roman";
+    font-size: 10px;
     box-shadow: 3px 3px rgb(199, 199, 199);
     cursor: pointer;
 }
