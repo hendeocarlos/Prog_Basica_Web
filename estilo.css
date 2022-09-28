@@ -45,7 +45,7 @@ form input:required:invalid{
     color: #fff;
     font-family: "Times New Roman";
     font-size: 12px;
-    box-shadow: 3px 3px rgb(199, 199, 199);
+    box-shadow: 3px 3px #808080	;
     cursor: pointer;
 }
 .button:hover{
@@ -53,6 +53,6 @@ form input:required:invalid{
 }
 .button:active{
     background-color: #176381;
-    box-shadow: 0 4px #fff;
+    box-shadow: 0 4px #4F4F4F	;
     transform: translateY(2px);
 }
