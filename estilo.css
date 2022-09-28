@@ -21,7 +21,38 @@ label{
 }
 input{
     width: 100px;
+    border-width: 1px;
+}
+::placeholder{
+    font-family: "Times New Roman";
+    font-size: 11px;
 }
 li{
     list-style: none;
+}
+form input:required:valid{
+    border-color: green;
+}
+form input:required:invalid{
+    border-color: red;
+}
+.button{
+    font-family: "Times New Roman";
+    border: none;
+    border-radius: 15px ;
+    padding: 15px 25px;
+    outline: none;
+    background-color: #0fa7e4;
+    color: #fff;
+    font-size: 13px;
+    box-shadow: 3px 3px rgb(199, 199, 199);
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #176381;
+}
+.button:active{
+    background-color: #176381;
+    box-shadow: 0 4px #fff;
+    transform: translateY(2px);
 }
