@@ -1,6 +1,30 @@
 body{
     font: 12px Arial;
 }
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #14abf1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu li{
+    float: left;
+}
+.menu li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+} 
+.menu li a:hover{
+    color: #FFF;
+    background-color: #176381;
+}
 h1{
     font-size: 30px;
     text-align: center;
