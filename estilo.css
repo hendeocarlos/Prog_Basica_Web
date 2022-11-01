@@ -23,7 +23,7 @@ body{
 } 
 .menu li a:hover{
     color: #FFF;
-    background-color: #176381;
+    background-color: #0d8ac4;
 }
 h1{
     font-size: 30px;
@@ -35,7 +35,7 @@ form{
     padding: 1em;
     width: 350px;
     border: 1px solid rgb(19, 4, 4);
-    background-color: aquamarine;
+    background-color: #14abf1;
 }
 label{
     display: inline-block;
@@ -65,18 +65,18 @@ form input:required:invalid{
     border-radius: 5px;
     height: 30px;
     outline: none;
-    background-color: #0fa7e4;
+    background-color: #2284e0;
     color: #fff;
     font-family: "Times New Roman";
     font-size: 10px;
-    box-shadow: 3px 3px #808080	;
+    box-shadow: 2px 2px #808080	;
     cursor: pointer;
 }
 .button:hover{
     background-color: #176381;
 }
 .button:active{
-    background-color: #176381;
+    background-color: #0d8ac4;
     box-shadow: 0 4px #4F4F4F	;
     transform: translateY(2px);
 }
