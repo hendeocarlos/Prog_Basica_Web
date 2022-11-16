@@ -37,7 +37,7 @@ body{
     display: none;
     box-shadow: 0px 8px 16px 0px rgba(236, 224, 224, 0.568);
 }
-.dropdown ul li{
+.dropdown li{
     display: block;
     float: left;
     padding: 1rem;
@@ -45,11 +45,11 @@ body{
     text-decoration: none;
     transition-duration: 0.5s;
 }
-.dropdown ul li a{
+.dropdown li a{
     color: #fff;
     text-decoration: none;
 }
-.dropdown ul li{
+.dropdown li{
     clear: both;
     width: 100%;
 }
@@ -60,12 +60,12 @@ body{
         font-weight: bold;
         transition: 0.3s;
 }
-
 .dropdown ul li:hover>ul, ul li:focus-within>ul, ul li:hover, ul li:focus{
     visibility: visible;
     opacity: 1;
     display: block;
 }
+
 h1{
     font-size: 30px;
     text-align: center;
