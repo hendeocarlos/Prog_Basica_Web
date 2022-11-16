@@ -61,10 +61,7 @@ body{
         transition: 0.3s;
 }
 
-.dropdown ul li:hover>ul,
-ul li:focus-within>ul,
-ul li ul:hover,
-ul li ul:focus{
+.dropdown ul li:hover>ul, ul li:focus-within>ul, ul li:hover, ul li:focus{
     visibility: visible;
     opacity: 1;
     display: block;
